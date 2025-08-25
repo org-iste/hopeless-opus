@@ -11,7 +11,6 @@ function App() {
     <div className='text-3xl font-bold underline'>
       <p>This is hopless opus</p>
     </div>
-      
     </>
   )
 }
