@@ -16,7 +16,7 @@ export default function AboutUs() {
     <section
       className="w-full min-h-screen flex flex-col items-center justify-center px-0 py-0"
       style={{
-      background: `linear-gradient(135deg,#0D1A2F)`,
+      background: `linear-gradient(135deg, #0D1A2F, #17364F, #411E3A)`,
       backgroundSize: "400% 400%",
       animation: "gradientAnimation 15s ease infinite"
       }}
@@ -33,17 +33,17 @@ export default function AboutUs() {
       </style>
 
       {/* Title */}
-        <div className="text-center mb-12 text-white px-4 pt-20">
-        <h2 className="text-4xl font-bold mb-4" style={{ color: "#09D8C7" }}>ABOUT ACUMEN</h2>
-        <p className="text-lg text-gray-200 mb-10 px-8">
+        <div className="text-center mb-12 text-white px-4 pt-28">
+        <h2 className="text-4xl font-bold mb-4" style={{ color: "#09D8C7", fontFamily: '"Goldman", sans-serif', textShadow: `0 0 10px rgba(99,102,241,0.8), 0 0 20px rgba(99,102,241,0.6), 0 0 40px rgba(99,102,241,0.5)`,}}>ABOUT ACUMEN</h2>
+        <p className="text-2xl text-gray-200 mb-10 px-24" style={{fontFamily: '"Geo", sans-serif'}}>
           TechTatva 2025 Acumen where Strategy, Puzzles, and Possibilities Unite! Step into Techtatva 2025's most exhilarating challenge : ACUMEN. A clash of intelellect and strategy, featuring two thrilling journeys - TESSERACT and HOPELESS OPUS. From mind-bending puzzles to choices that shape your destiny, Acumen is not just a game - it's an adventure you won't forget. Try your hand at the prize pool of a whopping _______
         </p>
 
-        <h2 className="text-4xl font-bold mb-4" style={{ color: "#09D8C7" }}>HOPELESS OPUS</h2>
-        <p className="text-lg text-gray-200 mb-10 px-8">
+        <h2 className="text-4xl font-bold mb-4" style={{ color: "#09D8C7", fontFamily: '"Goldman", sans-serif', textShadow: `0 0 10px rgba(99,102,241,0.8), 0 0 20px rgba(99,102,241,0.6), 0 0 40px rgba(99,102,241,0.5)`, }}>HOPELESS OPUS</h2>
+        <p className="text-2xl text-gray-200 mb-10 px-24" style={{fontFamily: '"Geo", sans-serif'}}>
           Hopeless Opus is back and more thrilling than ever! Step into an immersive online experience where every decision shapes your story! In this interactive storytelling event, your choices hold the power to unlock new paths and outcomes as you tackle mini games at step. The fate of the narrative is in your hands—choose wisely, and watch as your unique journey unfolds in real-time. Be ready for twists, turns, and unexpected revelations, where every choice you make matters!
         </p>
-        <h2 className="text-4xl font-bold mb-4" style={{ color: "#09D8C7" }}>Meet Our Team</h2>
+        <h2 className="text-4xl font-bold " style={{ color: "#09D8C7", fontFamily: '"Goldman", sans-serif', textShadow: `0 0 10px rgba(99,102,241,0.8), 0 0 20px rgba(99,102,241,0.6), 0 0 40px rgba(99,102,241,0.5)`, }}>MEET  OUR TEAM</h2>
         
       </div>
 
@@ -52,9 +52,10 @@ export default function AboutUs() {
         {team.map((member, index) => (
           <div
             key={index}
-            className="rounded-2xl text-center p-6 shadow-lg hover:shadow-xl transition duration-300"
+            className="rounded-2xl text-center p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-z-12 hover:scale-110"
+
             style={{
-              backgroundColor: "#OD1A2F",
+              backgroundColor: "#0D1A2F",
               border: "2px solid #09D8C7"
             }}
           >
