@@ -1,5 +1,6 @@
 import React from 'react'
 import Contact from './pages/Contact'
+import ComingSoon from './components/ComingSoon'
 
 function App() {
 
