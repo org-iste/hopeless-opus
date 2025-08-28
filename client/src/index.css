@@ -1,2 +1,10 @@
-@import "tailwindcss"
+@import "tailwindcss";
 
+h3,p {
+  font-family: 'Jura', sans-serif;
+}
+
+h2 {
+  font-family: 'Jura', sans-serif;
+  font-weight: bold;
+}
